@@ -60,7 +60,7 @@ public class SelectClienteServlet extends HttpServlet {
 
         try {
             Statement stmt = connection.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM cliente;");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM cliente ORDER BY id;");
 
             String texto = consultarClientes(rs);
 

@@ -1,13 +1,13 @@
 function abrirFormulario() {
     opcion = document.getElementById("select1")
 
-    if(opcion.value === 'insertar') {
-        window.open('formInsertCliente.html', "_self")
-    } else if(opcion.value === 'actualizar') {
-        window.open('formUpdateCliente.html', "_self")
-    } else if(opcion.value === 'eliminar') {
-        window.open('formDeleteCliente.html', "_self")
-    } else if(opcion.value === 'consultar') {
-        window.open('./listaClientes', "_self")
+    if(opcion.value === 'consultar') {
+        /* --- */
+    } else if(opcion.value === 'clientes') {
+        window.open('frmCliente.html', "_self")
+    } else if(opcion.value === 'monedas') {
+        window.open('frmMoneda.html', "_self")
+    } else if(opcion.value === 'productos') {
+        /* llamada a Servlet: window.open('./listaClientes', "_self") */
     }
 }
