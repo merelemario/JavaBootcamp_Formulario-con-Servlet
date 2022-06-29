@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="estilos/script.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <h1>Consultas en la Base de datos</h1>
+    <div class="container">
+        <!-- Content here -->
+        <div class="row">
+            <div class="col-12">
+                <label for="select1">Elige la operación</label>
+                <select id="select1" onchange="abrirFormulario()" class="form-select" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="consultar">Consultar Cliente</option>
+                    <option value="insertar">Ingresar Cliente</option>
+                    <option value="actualizar">Actualizar Cliente</option>
+                    <option value="eliminar">Eliminar Cliente</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+body {
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor {
+    position: relative;
+    border: burlywood 5px solid;
+    height: 530px;
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+label {
+    color: black;
+    text-decoration: solid;
+}
+
+#cuadro-box {
+    width: 3rem;
+    height: 3rem;
+    border: rgb(166, 166, 166);
+    border-color: rgb(166, 166, 166);
+}
+
+input {
+    border: none;
+    border-color: transparent;
+    border-bottom: rgb(166, 166, 166) solid 1.5px;
+    border-bottom-color: rgb(166, 166, 166);
+    border-radius: 0;
+}
+
+label {
+    padding-top: 1rem;
+}
+
+#idHelp {
+    color: burlywood;
+    text-decoration: solid;
+}
+
