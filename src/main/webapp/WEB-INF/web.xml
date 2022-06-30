@@ -8,7 +8,7 @@
   <!-- Context params -->
   <context-param>
     <param-name>dbUrl</param-name>
-    <param-value>jdbc:postgresql://localhost:5432/bc_market</param-value>
+    <param-value>jdbc:postgresql://localhost:5432/bootcamp_market</param-value>
   </context-param>
 
   <context-param>
@@ -18,7 +18,7 @@
 
   <context-param>
     <param-name>dbPassword</param-name>
-    <param-value>hola123</param-value>
+    <param-value>postgres</param-value>
   </context-param>
 
 </web-app>

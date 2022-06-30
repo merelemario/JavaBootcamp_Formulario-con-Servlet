@@ -9,5 +9,6 @@ function abrirFormulario() {
         window.open('frmMoneda.html', "_self")
     } else if(opcion.value === 'productos') {
         /* llamada a Servlet: window.open('./listaClientes', "_self") */
-    }
+    } else if (opcion.value === 'top'){
+        window.open('./Top', "_self")}
 }
